@@ -1,0 +1,4 @@
+bottle==0.12.18
+Click==7.0
+requests
+pyperclip
