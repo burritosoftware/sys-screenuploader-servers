@@ -11,7 +11,10 @@ Please run `owo_upload.py --help`. You must specify a token, a host IP (your pri
 For now, you should run this script on your local machine, as it will automatically copy your upload's URL to the system's clipboard.
 
 ### Installation
-You should be using **Atmosphere CFW** and be connected to your network, with **90DNS** to prevent Nintendo connections.
+You should be using **Atmosphere CFW** and be connected to your network, with **90DNS** to prevent Nintendo connections.  
+
+#### Important Notice  
+> If you haven't modded your Switch with custom firmware (CFW), follow the [switchgui.de](https://switchgui.de/), and make sure to follow the extra tutorial to setup [90DNS](https://switchgui.de/switch-guide/extras/blocking_updates#instructions-90dns), to allow your Switch to connect to your network without sending information that may ban your account.
 
 Download the latest release of [sys-screenuploader](https://github.com/bakatrouble/sys-screenuploader/releases/) and extract it to the root of your SD card.  
 Open `config/sys-screenuploader/config.ini`. Uncomment this line:  
